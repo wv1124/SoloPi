@@ -43,9 +43,9 @@
 &#160;&#160;&#160;&#160;本协议的一切解释权与修改权归本工具所有。\n
 </string>
 
-    <string name="replay_step_fragment__node_size_format">%d x %d</string>
-    <string name="record_service__cost_time">耗时为：%dms</string>
-    <string name="qr_scan__url_not_support">%s\\n此链接类型不支持，请重试</string>
+    <string name="replay_step_fragment__node_size_format" formatted="false">%d x %d</string>
+    <string name="record_service__cost_time" formatted="false">耗时为：%dms</string>
+    <string name="qr_scan__url_not_support" formatted="false">%s\\n此链接类型不支持，请重试</string>
     <string name="info__version_text">v%s</string>
     <string name="function_select__text">Text</string>
     <string name="function_select__description">Description</string>
@@ -116,7 +116,7 @@
     <string name="batch__execution_list">执行序列</string>
     <string name="patch__load_failed">插件%s加载失败</string>
     <string name="settings__check_update">检查更新</string>
-    <string name="settings__updating_cases">更新用例(%d/%d)</string>
+    <string name="settings__updating_cases" formatted="false">更新用例(%d/%d)</string>
     <string name="settings__start_update_cases">开始更新用例</string>
     <string name="settings__unset">未设置</string>
     <string name="record__preparing">正在准备中</string>
@@ -127,7 +127,7 @@
     <string name="replay__delete_case">删除此用例？</string>
     <string name="case_param_edit__case_desc">用例描述: %s</string>
     <string name="case_param_edit__target_app">目标应用: %s</string>
-    <string name="settings__global_param_key_value">%s=%s</string>
+    <string name="settings__global_param_key_value" formatted="false">%s=%s</string>
     <string name="activity__index">首页</string>
     <string name="activity__replay_result">回放结果</string>
     <string name="activity__performance_test">性能测试</string>
@@ -151,10 +151,10 @@
     <string name="record__connect_success">与%s连接成功</string>
     <string name="image_compare__assert_failed">图像断言失败</string>
     <string name="image_compare__assert_success">图像断言成功</string>
-    <string name="codec_config__unsupport_size">编码 \'%s\' 不支持尺寸 %dx%d</string>
-    <string name="codec_config__unsupport_size_framerate">编码 \'%s\' 不支持尺寸 %dx%d 帧率 %d</string>
-    <string name="codec_config__unsupport_bitrate">编码 \'%s\' 不支持码率 %d</string>
-    <string name="codec_config__unsupport_framerate">编码 \'%s\' 不支持帧率 %d</string>
+    <string name="codec_config__unsupport_size" formatted="false">编码 \'%s\' 不支持尺寸 %dx%d</string>
+    <string name="codec_config__unsupport_size_framerate" formatted="false">编码 \'%s\' 不支持尺寸 %dx%d 帧率 %d</string>
+    <string name="codec_config__unsupport_bitrate" formatted="false">编码 \'%s\' 不支持码率 %d</string>
+    <string name="codec_config__unsupport_framerate" formatted="false">编码 \'%s\' 不支持帧率 %d</string>
     <string name="batch__select_case">请选择用例</string>
     <string name="case__update_success">更新成功</string>
     <string name="performance__not_support_for_android_l">此功能不支持Android5.0以下设备</string>
@@ -199,7 +199,7 @@
     <string name="record__adb_hint">ADB未恢复，请连接PC执行\'adb tcpip 5555\'开启端口</string>
     <string name="record__execute_fail">执行操作[%s]失败，请尝试重新执行</string>
     <string name="performance__record_save">录制数据已经保存至\"%s\"内</string>
-    <string name="performance__record_upload">录制数据已经上传至\"%s\"，响应结果: %s</string>
+    <string name="performance__record_upload" formatted="false">录制数据已经上传至\"%s\"，响应结果: %s</string>
     <string name="record_screen__calculating_response_time">正在计算响应耗时</string>
     <string name="app__find_anr_info">发现anr信息，已拷贝至: %s</string>
     <string name="ui__parse_failed">解析异常</string>

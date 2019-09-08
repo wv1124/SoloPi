@@ -40,7 +40,6 @@ android {
         }
     }
 
-
     signingConfigs {
         release {
             v1SigningEnabled true

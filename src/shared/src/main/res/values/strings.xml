@@ -17,10 +17,10 @@
     <string name="app_name">shared</string>
     <string name="accessibility_description">SoloPi自动化工具\n支持功能：\n1. 用例录制回放\n2. 记录性能数据\n3. 一机多控
     </string>
-    <string name="download__progress">%d%%</string>
-    <string name="download__download_failed">下载失败: %s\\n%s</string>
+    <string name="download__progress" formatted="false">%d%%</string>
+    <string name="download__download_failed" formatted="false">下载失败: %s\\n%s</string>
     <string name="download__prepare_download">准备下载</string>
-    <string name="download__download_success_store">下载成功，文件存储在: %s</string>
+    <string name="download__download_success_store" formatted="false">下载成功，文件存储在: %s</string>
     <string name="download__installing">安装中…</string>
     <string name="download__install_success">安装成功</string>
     <string name="download__install_fail">安装失败</string>
